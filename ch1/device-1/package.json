@@ -1,0 +1,15 @@
+{
+  "name": "sample-device",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliano Santos",
+  "license": "ISC",
+  "dependencies": {
+    "ibmiotf": "^0.2.41"
+  }
+}

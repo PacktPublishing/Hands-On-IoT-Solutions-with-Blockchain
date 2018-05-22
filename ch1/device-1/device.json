@@ -1,0 +1,7 @@
+{
+    "org": "<your IoT organization id>",
+    "type": "DeviceSimulator",
+    "id": "DeviceSimulator01",
+    "auth-method" : "token",
+    "auth-token" : "<device authentication token>"
+  }

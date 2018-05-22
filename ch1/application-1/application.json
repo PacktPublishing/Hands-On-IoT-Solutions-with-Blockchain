@@ -1,0 +1,6 @@
+{
+    "org": "<your IoT organization id>",
+    "id": "sample-app",
+    "auth-key": "<application authentication key>",
+    "auth-token": "<application authentication token>"
+  }

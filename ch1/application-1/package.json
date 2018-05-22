@@ -1,0 +1,15 @@
+{
+  "name": "sample-application",
+  "version": "1.0.0",
+  "description": "Hands-On IoT Solutions with Blockchain - Chapter 1 App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliano Santos",
+  "license": "ISC",
+  "dependencies": {
+    "ibmiotf": "^0.2.41"
+  }
+}
