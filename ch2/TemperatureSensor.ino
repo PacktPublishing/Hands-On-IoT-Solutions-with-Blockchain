@@ -1,35 +1,27 @@
 #include <math.h>
+#define THERMISTOR 4250
+#define RESISTOR 100000
 
-#define THERMISTOR  3975                  //B value of the thermistor
-
-int temperatureSensorPin  = A3;
-
+int temperatureSensorPin = A3;
 void setup() {
 
-    Serial.begin(115200);
-
+Serial.begin(115200);
 }
 
 void loop()
-
 {
-
-   delay(60000);           /// 60 x 1000 milisecconds
-
-   Serial.print("Current moisture is ");
-
-    Serial.println(getSoilMoisture());
-
+delay(3000);
+Serial.print("Current temperature is \t");
+Serial.println(getTemperature());
 }
 
 float getTemperature() {
+int sensorValue = analogRead(temperatureSensorPin);
 
-    int a = analogRead(temperatureSensorPin);
+float R = 1023.0/sensorValue-1.0;
+R = RESISTOR*R;
 
-    float resistance = (float)(1023-a)*10000/a; //get the resistance of the sensor;
+float temperature = 1.0/(log(R/RESISTOR)/THERMISTOR+1/298.15)-273.15;
 
-    float temperature = 1/(log(resistance/10000)/THERMISTOR+1/298.15)-273.15; //convert to temperature via datasheet ;
-
-    return(temperature);
-
+return(temperature);
 }
