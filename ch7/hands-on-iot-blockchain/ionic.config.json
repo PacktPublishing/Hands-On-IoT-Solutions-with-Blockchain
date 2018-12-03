@@ -1,0 +1,7 @@
+{
+  "name": "hands-on-iot-blockchain",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
