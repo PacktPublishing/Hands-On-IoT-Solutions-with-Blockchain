@@ -43,7 +43,7 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | 1 | NodeJS 8.x, npm v5.x, Git 2.9+, Visual Studio Code 1.x,  | Windows, Mac OS X, and Linux (Any) |
-| 2, 7 | Intel Edison module, Intel Edison Arduino breakout board, Grove base shield v2, Grove soil moisture sensor, Groove temperature sensor v1.2, Grove relay module, Grove button module, Grove universal 4-pin cable, 12V water solenoid valve, 12V 2A power supply, Jumper cables (male to male) | Windows, Mac OS X, and Linux (Any) |
+| 2, 7 | Intel Edison module, Intel Edison Arduino breakout board, Grove base shield v2, Grove soil moisture sensor, Grove temperature sensor v1.2, Grove relay module, Grove button module, Grove universal 4-pin cable, 12V water solenoid valve, 12V 2A power supply, Jumper cables (male to male) | Windows, Mac OS X, and Linux (Any) |
 | 4 | Docker Engine 17.03+, Python 2.7.x | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789132243_ColorImages.pdf?).
